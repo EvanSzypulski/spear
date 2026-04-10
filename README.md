@@ -58,7 +58,7 @@ For full parameter details, type:
 help spear
 ```
 
-## Usage
+## License
 MIT License - see the LICENSE file for details.
 
 ## Author
