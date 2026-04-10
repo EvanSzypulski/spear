@@ -62,6 +62,6 @@ help spear
 MIT License - see the LICENSE file for details.
 
 ## Author
-Evan Szypulksi
+Evan Szypulski
 
 Georgia State University
