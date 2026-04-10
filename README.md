@@ -27,8 +27,9 @@ Tested in: MATLAB R2025b
 ## Installation
 1. Download or clone this repository.
 2. Add the folder to your MATLAB path:
-   ```matlab
-   addpath('path/to/spear'); 
+```matlab
+addpath('path/to/spear');
+```
 
 ## Usage
 
@@ -37,7 +38,7 @@ Tested in: MATLAB R2025b
 % Process one audio file
 params = struct();                    % Use built-in defaults
 spear('raw_audio/noisy_recording.mp3', 'processed_audio', params);
-````
+```
 ### Customizing parameters
 ```matlab
 params = struct(...
@@ -46,8 +47,7 @@ params = struct(...
     'targetPeak', 0.99);
 
 spear('input_file.wav', 'output_folder', params);
-
-````
+```
 After running, SPEAR saves two files in the output folder:
 
 - `<filename>_SPEARed.mp3` — cleaned audio
@@ -56,7 +56,7 @@ After running, SPEAR saves two files in the output folder:
 For full parameter details, type:
 ```matlab
 help spear
-````
+```
 
 ## Usage
 MIT License - see the LICENSE file for details.
