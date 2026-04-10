@@ -7,7 +7,7 @@ function spear(inputPath, outputDir, params)
 %
 %   Author:     Evan Szypulski
 %   University: Georgia State University
-%   Date:       April 9 2026
+%   Date:       April 9, 2026
 %   Version:    1.0
 %   Project:    GSURC 2026 (Automated Removal of Acoustic Noise from fMRI-Acquired Jazz Scat Singing)
 %
