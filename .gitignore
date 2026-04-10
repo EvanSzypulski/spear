@@ -10,8 +10,12 @@ DerivedData/
 *.mp3
 *.m4a
 *.png
+processed_results/
 processed_audio/
-raw_audio/
+
+# EXCEPTIONS
+!examples/01_A_01.mp3
+!GSURC_2026_Slides.pdf
 
 # System files
 .DS_Store
