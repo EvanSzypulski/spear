@@ -15,9 +15,14 @@ Developed for **GSURC 2026**: *Automated Removal of Acoustic Noise from fMRI-Acq
 - Requires **Audio Toolbox** and **Signal Processing Toolbox**
 
 ## Requirements
-- MATLAB R2020b or newer
+- MATLAB R2021a or newer
 - Audio Toolbox
 - Signal Processing Toolbox
+
+### Notes on Reproducibility:
+This function uses MATLAB Audio Toolbox dynamic range processors (compressor, limiter) and peak detection (findpeaks), whose internal implementations may vary slightly across MATLAB versions. As a result, output may not be numerically identical across different releases.
+
+Tested in: MATLAB R2025b
 
 ## Installation
 1. Download or clone this repository.
