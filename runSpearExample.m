@@ -1,7 +1,7 @@
 %% Run SPEAR Example
 %   Author:     Evan Szypulski
 %   University: Georgia State University
-%   Date:       April 9 2026
+%   Date:       April 9, 2026
 %
 %   This script demonstrates the Spectral Peak Elimination and Amplitude 
 %   Regulation (SPEAR) tool using a sample recording from GSURC 2026.
