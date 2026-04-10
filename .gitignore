@@ -1,0 +1,18 @@
+# MATLAB specific
+*.asv
+*.mex*
+*.slxc
+*.mat
+DerivedData/
+
+# Audio/Output files (don't upload your test data)
+*.wav
+*.mp3
+*.m4a
+*.png
+processed_audio/
+raw_audio/
+
+# System files
+.DS_Store
+Thumbs.db
