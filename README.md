@@ -12,7 +12,6 @@ Developed for **GSURC 2026**: *Automated Removal of Acoustic Noise from fMRI-Acq
 - RMS-based gain staging + dynamic range compression + brickwall limiting
 - Generates a professional QC report (before/after PSD + waveform plot)
 - Includes sensible default parameters for fMRI vocal audio
-- Requires **Audio Toolbox** and **Signal Processing Toolbox**
 
 ## Requirements
 - MATLAB R2021a or newer
